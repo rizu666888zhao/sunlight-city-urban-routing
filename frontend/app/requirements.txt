@@ -1,0 +1,9 @@
+# For Vercel Python serverless (api/*). Same as server/ plus greenlet + email-validator.
+fastapi>=0.98.0
+SQLAlchemy>=2.0.19
+asyncpg>=0.28.0
+python-jose>=3.3.0
+passlib>=1.7.4
+python-dotenv>=1.0.0
+greenlet>=3.0.0
+email-validator>=2.0.0
