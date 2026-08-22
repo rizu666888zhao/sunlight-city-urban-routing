@@ -1,0 +1,38 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# Generated research artifacts
+*.bin
+*.pkl
+*.pickle
+*.sql
+*.unitypackage
+*.zip
+pareto_*.csv
+od_all_hourly_unity_filtered.csv
+od_type.csv
+sun_pos_*.csv
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+

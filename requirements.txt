@@ -1,0 +1,7 @@
+matplotlib>=3.8
+networkx>=3.2
+numpy>=1.26
+pandas>=2.1
+psycopg2-binary>=2.9
+pvlib>=0.10
+
